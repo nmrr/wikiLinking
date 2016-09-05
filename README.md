@@ -19,19 +19,19 @@ On Debian-based systems :
 ### How does it work ?
 
 **Required arguments :** 
--w (--wiki) : URL of the wiki (ex : https://en.wikipedia.org/wiki/)
--p (--page) : Root page (ex : Paris)
--r (--resolution) : Resolution domain string, page:port:IP (ex : en.wikipedia.org:443:91.198.174.192)
--f (--file) : Output file, format is CSV (ex : paris.csv)
+-w (--wiki) : URL of the wiki (ex : https://en.wikipedia.org/wiki/)<br/>
+-p (--page) : Root page (ex : Paris)<br/>
+-r (--resolution) : Resolution domain string, page:port:IP (ex : en.wikipedia.org:443:91.198.174.192)<br/>
+-f (--file) : Output file, format is CSV (ex : paris.csv)<br/>
 
 **Optional arguments :** 
--d (--depth) : Maximum depth of the tree (1-4), default is 1
--t (--thread) : Number of threads (1-100), default is 5, please don't overload the target server !
--u (--useragent) : User agent used by the crawler
--s (--separator) : Field separator, default is ' ; '
+-d (--depth) : Maximum depth of the tree (1-4), default is 1<br/>
+-t (--thread) : Number of threads (1-100), default is 5, please don't overload the target server !<br/>
+-u (--useragent) : User agent used by the crawler<br/>
+-s (--separator) : Field separator, default is ' ; '<br/>
 
 To crawl Paris' page to the depth 4 with 10 threads : 
-**./wikiLinking -w "https://en.wikipedia.org/wiki/" -p "Paris" -r "en.wikipedia.org:443:91.198.174.192" -f Paris_EN.csv -d 4 -t 10**
+<br/>**./wikiLinking -w "https://en.wikipedia.org/wiki/" -p "Paris" -r "en.wikipedia.org:443:91.198.174.192" -f Paris_EN.csv -d 4 -t 10**
 
 #### Samples
 
@@ -56,19 +56,19 @@ Sur les systèmes basés sur Debian :
 ### Comment ça fonctionne ?
 
 **Required arguments :** 
--w (--wiki) : URL of the wiki (ex : https://en.wikipedia.org/wiki/)
--p (--page) : Root page (ex : Paris)
--r (--resolution) : Resolution domain string, page:port:IP (ex : en.wikipedia.org:443:91.198.174.192)
--f (--file) : Output file, format is CSV (ex : paris.csv)
+-w (--wiki) : URL of the wiki (ex : https://en.wikipedia.org/wiki/)<br/>
+-p (--page) : Root page (ex : Paris)<br/>
+-r (--resolution) : Resolution domain string, page:port:IP (ex : en.wikipedia.org:443:91.198.174.192)<br/>
+-f (--file) : Output file, format is CSV (ex : paris.csv)<br/>
 
 **Optional arguments :** 
--d (--depth) : Maximum depth of the tree (1-4), default is 1
--t (--thread) : Number of threads (1-100), default is 5, please don't overload the target server !
--u (--useragent) : User agent used by the crawler
--s (--separator) : Field separator, default is ' ; '
+-d (--depth) : Maximum depth of the tree (1-4), default is 1<br/>
+-t (--thread) : Number of threads (1-100), default is 5, please don't overload the target server !<br/>
+-u (--useragent) : User agent used by the crawler<br/>
+-s (--separator) : Field separator, default is ' ; '<br/>
 
 Pour récupérer les liens de la page Paris jusqu'à la profondeur de 4 avec 10 threads  : 
-**./wikiLinking -w "https://fr.wikipedia.org/wiki/" -p "Paris" -r "fr.wikipedia.org:443:91.198.174.192" -f Paris_FR.csv -d 4 -t 10**
+<br/>**./wikiLinking -w "https://fr.wikipedia.org/wiki/" -p "Paris" -r "fr.wikipedia.org:443:91.198.174.192" -f Paris_FR.csv -d 4 -t 10**
 
 ### Exemples
 
